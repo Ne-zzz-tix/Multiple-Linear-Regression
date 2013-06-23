@@ -38,9 +38,6 @@ public:
     virtual double getA() const { return a; }
     virtual double getB() const { return b; }
 
-    double getCoefDeterm() const  { return coefD; }
-    double getCoefCorrel() const { return coefC; }
-    double getStdErrorEst() const { return stdError; }
     virtual double estimateY(double x) const { return (a + b * x); }
 
 protected:
@@ -51,9 +48,7 @@ protected:
     double sumXY;       // sum of x*y
 
     double a, b;        // coefficients of f(x) = a + b*x
-    double coefD,       // coefficient of determination
-           coefC,       // coefficient of correlation
-           stdError;    // standard error of estimate
+
 
     void Calculate();   // calculate coefficients
 };

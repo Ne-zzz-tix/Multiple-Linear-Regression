@@ -44,18 +44,10 @@ void LinearRegression::Calculate()
             b = ( double(n) * sumXY - sumY * sumX) /
                 ( double(n) * sumXsquared - sumX * sumX);
             a = (sumY - b * sumX) / double(n);
-
-            double sx = b * ( sumXY - sumX * sumY / double(n) );
-            double sy2 = sumYsquared - sumY * sumY / double(n);
-            double sy = sy2 - sx;
-
-            coefD = sx / sy2;
-            coefC = sqrt(coefD);
-            stdError = sqrt(sy / double(n - 2));
         }
         else
         {
-            a = b = coefD = coefC = stdError = 0.0;
+            a = b = 0.0;
         }
     }
 }

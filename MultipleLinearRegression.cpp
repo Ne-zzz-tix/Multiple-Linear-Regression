@@ -18,8 +18,11 @@ void MultipleLinearRegression::addXY(const std::vector<double>& x, const double&
 
 double MultipleLinearRegression::getA()
 {
+	return 0.0f;
 }
 
 std::vector<double> MultipleLinearRegression::getB()
 {
+	std::vector<double> hmm;
+	return hmm;
 }
