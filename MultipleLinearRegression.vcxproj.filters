@@ -18,17 +18,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="linreg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MultipleLinearRegression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linreg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MultipleLinearRegression.h">
       <Filter>Header Files</Filter>
     </ClInclude>

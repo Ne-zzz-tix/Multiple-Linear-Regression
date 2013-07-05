@@ -60,12 +60,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="linreg.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultipleLinearRegression.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linreg.h" />
     <ClInclude Include="MultipleLinearRegression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
